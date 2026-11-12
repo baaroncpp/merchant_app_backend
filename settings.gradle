@@ -1,1 +1,4 @@
 rootProject.name = 'merchant_app_backend'
+
+include 'commons'
+include 'merchant'
