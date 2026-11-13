@@ -6,9 +6,9 @@ import com.pbu.commons.exceptions.BadRequestException;
 import java.util.regex.Pattern;
 
 /**
- * @Project merchant-backend
- * @Date 11/12/26
- * @LocalTime 12:41 PM
+ * @Project merchant_app_backend
+ * @Date 12/11/2026
+ * @LocalTime 12:41
  */
 public class StringRegExUtil {
 

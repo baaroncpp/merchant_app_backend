@@ -3,9 +3,9 @@ package com.pbu.commons.exceptions;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @Project merchant-backend
- * @Date 11/12/26
- * @LocalTime 12:41 PM
+ * @Project merchant_app_backend
+ * @Date 12/11/2026
+ * @LocalTime 12:41
  **/
 @Slf4j
 public class AccessDeniedException extends RuntimeException{

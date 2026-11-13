@@ -4,9 +4,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 
 /**
- * @Project merchant-backend
- * @Date 11/12/26
- * @LocalTime 4:10PM
+ * @Project merchant_app_backend
+ * @Date 12/11/2026
+ * @LocalTime 16:10
  **/
 @Slf4j
 public class AcknowledgementRequestException  extends RuntimeException{

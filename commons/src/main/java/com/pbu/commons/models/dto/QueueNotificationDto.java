@@ -1,14 +1,13 @@
 package com.pbu.commons.models.dto;
 
 import com.pbu.commons.models.enums.NotificationStatusEnum;
-import com.pbu.commons.models.enums.NotificationTypeEnum;
 import lombok.Builder;
 import lombok.Data;
 
 /**
- * @Project merchant-backend
- * @Date 11/12/26
- * @LocalTime 4:10PM
+ * @Project merchant_app_backend
+ * @Date 12/11/2026
+ * @LocalTime 16:10
  **/
 @Data
 @Builder

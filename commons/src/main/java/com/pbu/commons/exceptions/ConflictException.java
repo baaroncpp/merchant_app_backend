@@ -3,9 +3,9 @@ package com.pbu.commons.exceptions;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @Project merchant-backend
- * @Date 11/12/26
- * @LocalTime 7:55PM
+ * @Project merchant_app_backend
+ * @Date 12/11/2026
+ * @LocalTime 19:55
  **/
 @Slf4j
 public class ConflictException  extends RuntimeException {

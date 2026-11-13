@@ -1,7 +1,7 @@
 package com.pbu.commons.utils;
 
 import com.pbu.commons.exceptions.*;
-import com.pbu.commons.exceptions.IllegalArgumentException;
+import com.pbu.commons.exceptions.CustIllegalArgumentException;
 import com.pbu.commons.exceptions.model.ExceptionType;
 import org.springframework.util.StringUtils;
 
@@ -18,8 +18,8 @@ import static com.pbu.commons.utils.ConstantMessages.IS_INVALID_FIELD;
 
 
 /**
- * @Project merchant-backend
- * @Date 11/12/26
+ * @Project merchant_app_backend
+ * @Date 12/11/2026
  **/
 public class Validate {
 
@@ -85,7 +85,7 @@ public class Validate {
         }
 
         if(value == null && exceptionType.equals(ExceptionType.ILLEGAL_ARGUMENT_EXCEPTION)){
-            throw new IllegalArgumentException(message, params);
+            throw new CustIllegalArgumentException(message, params);
         }
 
     }

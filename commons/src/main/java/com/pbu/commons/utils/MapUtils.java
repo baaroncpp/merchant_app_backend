@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Project merchant-backend
- * @Date 11/12/26
+ * @Project merchant_app_backend
+ * @Date 12/11/2026
  */
 @SuppressWarnings("unchecked")
 public class MapUtils {

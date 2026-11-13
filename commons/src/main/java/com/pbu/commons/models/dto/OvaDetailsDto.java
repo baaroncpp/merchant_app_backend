@@ -4,9 +4,9 @@ import lombok.Builder;
 import lombok.Data;
 
 /**
- * @Project merchant-backend
- * @Date 11/12/26
- * @LocalTime 7:35PM
+ * @Project merchant_app_backend
+ * @Date 12/11/2026
+ * @LocalTime 19:35
  **/
 @Data
 @Builder
